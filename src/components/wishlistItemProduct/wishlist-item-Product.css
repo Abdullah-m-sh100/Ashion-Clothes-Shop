@@ -1,0 +1,20 @@
+.wishlistItemProduct {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.wishlistItemProduct .texts .name {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 7px;
+  color: black;
+}
+.wishlistItemProduct .texts .stars {
+  display: flex;
+  align-items: center;
+  /* gap: 5px; */
+}
+.wishlistItemProduct .texts .stars svg {
+  color: #e3c01c;
+  font-size: small;
+}

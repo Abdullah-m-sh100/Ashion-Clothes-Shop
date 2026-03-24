@@ -1,0 +1,53 @@
+.ForgotPassForm {
+  min-height: calc(100vh - 97px - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.ForgotPassForm .container-form h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.ForgotPassForm .container-form > p {
+  color: var(--gray-color);
+  margin-bottom: 15px;
+}
+.ForgotPassForm .container-form form {
+  max-width: 500px;
+}
+.ForgotPassForm .container-form form input {
+  padding: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.ForgotPassForm .container-form form button {
+  color: var(--white-color);
+  background-color: var(--red-color);
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.ForgotPassForm .container-form a {
+  display: inline-block;
+  color: cadetblue;
+  margin-bottom: 10px;
+  transition: 0.3s;
+  font-size: 14px;
+}
+.ForgotPassForm .container-form a:hover {
+  color: rgb(64, 117, 119);
+}
+.ForgotPassForm .container-form > p {
+  font-size: 14px;
+}

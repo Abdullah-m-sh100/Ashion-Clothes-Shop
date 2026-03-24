@@ -1,0 +1,35 @@
+.Services {
+  padding: 50px 0;
+}
+.Services .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 40px;
+}
+.Services .row .box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Services .row .box .icon svg {
+  font-size: 40px;
+  color: var(--red-color);
+}
+.Services .row .box .texts h1 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.Services .row .box .texts p {
+  font-size: 14px;
+  color: var(--gray-color);
+}
+@media (max-width: 576px){
+  .Services .row .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  flex-direction: column;
+}
+}

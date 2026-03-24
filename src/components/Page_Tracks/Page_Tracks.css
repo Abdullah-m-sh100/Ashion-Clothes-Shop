@@ -1,0 +1,17 @@
+.PageTracks {
+  padding: 30px 0;
+}
+.PageTracks .container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
+  color: var(--dark-color);
+}
+.PageTracks .container a {
+  font-weight: 500;
+  color: var(--dark-color);
+}
+.PageTracks .container p {
+  color: var(--gray-color);
+}

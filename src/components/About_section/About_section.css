@@ -1,0 +1,55 @@
+.AboutSection {
+  padding: 50px 0;
+}
+.AboutSection .text-1 h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.AboutSection p {
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--gray-color);
+}
+.AboutSection .text-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 50px;
+}
+.AboutSection .text-2 h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.AboutSection .text-2 ul {
+  padding-left: 15px;
+  list-style: outside;
+  margin-bottom: 20px;
+}
+.AboutSection .text-2 ul li {
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+.AboutSection .text-2 ul li span {
+  font-weight: 600;
+}
+.AboutSection .text-3 span {
+  display: block;
+  margin-bottom: 10px;
+}
+.AboutSection .text-3 button {
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: var(--red-color);
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+@media (min-width: 576px) {
+}

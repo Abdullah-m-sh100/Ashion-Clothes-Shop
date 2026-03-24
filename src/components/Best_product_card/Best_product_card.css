@@ -1,0 +1,21 @@
+.BestProductCard {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+}
+.BestProductCard .test-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+}
+.BestProductCard .name {
+  color: black;
+}
+.BestProductCard .stars {
+  color: #efcb00;
+  font-size: 12px;
+}
+.BestProductCard .price {
+  font-weight: 600;
+}

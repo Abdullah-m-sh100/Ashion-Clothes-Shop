@@ -1,0 +1,120 @@
+.CartFinally {
+  margin: 50px 0;
+}
+.CartFinally .mainBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.CartFinally .mainBtn button {
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.CartFinally .discount {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.CartFinally .discount h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.CartFinally .discount .form {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.CartFinally .discount .form form {
+  height: 60px;
+  width: 400px;
+  border: 1px solid #000;
+  border-radius: 50px;
+  padding: 3px 3px 3px 18px;
+  display: flex;
+}
+.CartFinally .discount .form form input {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.CartFinally .discount .form form button {
+  height: 100%;
+  width: 120px;
+  border-radius: 50px;
+  border: none;
+  background-color: var(--red-color);
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+.CartFinally .discount .box {
+  width: 290px;
+  background-color: #eee;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.CartFinally .discount .box > div {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.CartFinally .discount .box div .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.CartFinally .discount .box div .row p {
+  font-weight: 700;
+}
+.CartFinally .discount .box div .row .price {
+  color: var(--red-color);
+}
+.CartFinally .discount .box button {
+  width: 100%;
+  margin: auto;
+  background-color: var(--red-color);
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+  .CartFinally .mainBtn {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .CartFinally .discount .box {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .CartFinally .discount {
+    justify-content: center;
+  }
+  .CartFinally .discount .form {
+    flex-direction: column;
+  }
+  .CartFinally .discount .form form {
+    width: 100%;
+  }
+}

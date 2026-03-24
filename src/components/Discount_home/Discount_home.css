@@ -1,0 +1,119 @@
+.DiscountHome {
+  padding: 30px 0;
+  position: relative;
+}
+.DiscountHome .container .row {
+  display: flex;
+  width: 100%;
+  height: 390px;
+}
+.DiscountHome .container .row > div {
+  width: 50%;
+  /* height: 390px; */
+  margin: 0 !important;
+}
+.DiscountHome .container .row .coll-1 img {
+  width: 100%;
+}
+.DiscountHome .container .row .coll-2 {
+  flex: 1;
+  padding: 50px;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.DiscountHome .container .row .coll-2 .discount-texts {
+  background-color: white;
+  height: 183px;
+  width: 183px;
+  border-radius: 50%;
+  position: relative;
+}
+.DiscountHome .container .row .coll-2 .discount-texts .group-1 {
+  position: absolute;
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.DiscountHome .container .row .coll-2 .discount-texts .group-1 p:first-of-type {
+  text-transform: uppercase;
+  font-size: 15.2px;
+}
+.DiscountHome .container .row .coll-2 .discount-texts .group-1 h1 {
+  font-size: 40px;
+  font-family: var(--comic-font);
+  color: var(--red-color);
+  line-height: normal;
+}
+
+.DiscountHome .container .row .coll-2 .discount-texts .group-1 p:last-of-type {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 16.8px;
+}
+.DiscountHome
+  .container
+  .row
+  .coll-2
+  .discount-texts
+  .group-1
+  p:last-of-type
+  span {
+  color: var(--red-color);
+  font-weight: bold;
+  font-size: 18px;
+}
+.DiscountHome .container .row .coll-2 .group-2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.DiscountHome .container .row .coll-2 .group-2 .timer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.DiscountHome .container .row .coll-2 .group-2 .timer > div {
+  font-size: 30px;
+  font-weight: bold;
+}
+.DiscountHome .container .row .coll-2 .group-2 .timer > div span {
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 2px;
+}
+
+.DiscountHome .container .row .coll-2 .group-2 .main-button {
+  font-size: 16px;
+}
+@media (max-width: 992px) {
+  .DiscountHome .container .row {
+    flex-direction: column;
+    height: 100%;
+  }
+  .DiscountHome .container .row div {
+    width: 100%;
+    margin: 0 !important;
+  }
+  .DiscountHome .container .row .coll-2 {
+    padding: 30px;
+  }
+  .DiscountHome .container .row .coll-2 .group-2 .timer {
+    gap: 2px;
+  }
+  .DiscountHome .container .row .coll-2 .group-2 .timer > div {
+    font-size: 20px;
+  }
+  .DiscountHome .container .row .coll-2 .group-2 .timer > div span {
+    font-size: 12px;
+  }
+}
+@media (max-width: 576px) {
+.DiscountHome .container .row .coll-2 .discount-texts .group-1 h1 {
+  font-size: 20px;
+}
+}

@@ -1,0 +1,41 @@
+.item-row {
+  user-select: none;
+  padding: 15px 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+.item-row .cart_price {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--red-color);
+}
+.item-row .cart_quantity div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.item-row .cart_quantity div span:not(:nth-of-type(2)) {
+  padding: 10px;
+  cursor: pointer;
+}
+.item-row .cart_total {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--red-color);
+}
+.item-row .cart_delete span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: #eee;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.item-row .cart_delete span:hover {
+  background-color: #ddd;
+}

@@ -1,0 +1,40 @@
+.Advertising {
+  min-height: 60vh;
+  background-image: url(../../assets/banner/banner-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.Advertising .Advertising-texts {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.Advertising .Advertising-texts p {
+  color: var(--red-color);
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.Advertising .Advertising-texts h1 {
+  font-weight: 100;
+  font-family: var(--cookie-font);
+  font-size: 80px;
+}
+.Advertising .Advertising-texts .main-button {
+  font-size: 16px;
+}
+
+@media (max-width: 576px) {
+  .Advertising .Advertising-texts p {
+    font-size: 16px;
+  }
+  .Advertising .Advertising-texts h1 {
+    font-size: 50px;
+  }
+  .Advertising .Advertising-texts .main-button {
+    font-size: 13px;
+  }
+}

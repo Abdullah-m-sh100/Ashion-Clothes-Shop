@@ -1,0 +1,72 @@
+.OptionShopPage {
+  width: 250px;
+}
+.OptionShopPage > div > h1 {
+  width: fit-content;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  position: relative;
+}
+.OptionShopPage > div > h1::after {
+  content: "";
+  width: 50%;
+  height: 2px;
+  background-color: var(--red-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.OptionShopPage .Accordion {
+  width: 100%;
+  border: none !important;
+  box-shadow: none !important;
+}
+.css-rizt0-MuiTypography-root {
+  font-size: 14px !important ;
+  font-weight: 500;
+  color: #111111;
+  display: block;
+}
+
+.css-yfrx4k-MuiAccordionSummary-content.Mui-expanded {
+  margin: 0 !important;
+}
+.css-1f1pi2l-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+  min-height: 0px !important;
+}
+
+.css-1umw9bq-MuiSvgIcon-root {
+  font-size: 16px !important;
+  color: #666666;
+}
+.OptionShopPage .Accordion ul li {
+  line-height: 30px;
+  font-size: 14px;
+  color: #666666;
+  cursor: pointer;
+}
+.OptionShopPage .Accordion ul li::before {
+  content: "-";
+  margin-right: 5px;
+}
+.OptionShopPage .size,
+.OptionShopPage .color {
+  margin-top: 50px;
+}
+
+.OptionShopPage label {
+  cursor: pointer;
+  color: #666666;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  line-height: 30px;
+}

@@ -1,0 +1,20 @@
+.CartItemProduct {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.CartItemProduct .texts .name {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 7px;
+  color: black;
+}
+.CartItemProduct .texts .stars {
+  display: flex;
+  align-items: center;
+  /* gap: 5px; */
+}
+.CartItemProduct .texts .stars svg {
+  color: #e3c01c;
+  font-size: small;
+}

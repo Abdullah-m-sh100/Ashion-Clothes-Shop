@@ -1,0 +1,39 @@
+.item-row {
+  user-select: none;
+  padding: 15px 0;
+}
+.item-row .wishlist_price {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--red-color);
+}
+.item-row .wishlist-add {
+  text-align: center;
+}
+.item-row .wishlist-add button {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+
+  color: #007bff;
+  cursor: pointer;
+}
+.item-row .wishlist-add button:hover {
+  color: #0056b3;
+}
+.item-row .wishlist_delete span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: #eee;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.item-row .wishlist_delete span:hover {
+  background-color: #ddd;
+}

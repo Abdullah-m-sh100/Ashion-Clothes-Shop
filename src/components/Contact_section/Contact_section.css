@@ -1,0 +1,74 @@
+.ContactSection {
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+.ContactSection .container .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.ContactSection .container .row h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.ContactSection .container .row .col-1 .contact-info {
+  margin-bottom: 30px;
+}
+.ContactSection .container .row .col-1 .contact-info .box {
+  margin-bottom: 20px;
+}
+.ContactSection .container .row .col-1 .contact-info .box h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--dark-color);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.ContactSection .container .row .col-1 .contact-info .box svg {
+  font-size: 15px;
+  color: var(--red-color);
+}
+.ContactSection .container .row .col-1 .contact-info .box p {
+  font-size: 14px;
+  color: var(--gray-color);
+}
+.ContactSection .container .row .col-1 .send-massage form {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+}
+.ContactSection .container .row .col-1 .send-massage form input,
+.ContactSection .container .row .col-1 .send-massage form textarea {
+  width: 100%;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+}
+.ContactSection .container .row .col-1 .send-massage form button {
+  color: var(--white-color);
+  background-color: var(--red-color);
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.ContactSection .container .row .col-2 > div {
+  height: 100;
+}
+
+@media (max-width: 992px) {
+  .ContactSection .container .row {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 400px;
+  }
+
+}
+

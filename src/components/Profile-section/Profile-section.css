@@ -1,0 +1,56 @@
+.profile-section .container {
+  display: flex;
+  gap: 40px;
+}
+
+.profile-section .container .profile-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.profile-section .container .profile-categories {
+  width: 25%;
+}
+.profile-section .container .profile-categories h3 {
+  padding: 7px 0;
+  margin-bottom: 20px;
+  font-weight: 600;
+  position: relative;
+  width: fit-content;
+}
+.profile-section .container .profile-categories h3::before {
+  content: "";
+  height: 2px;
+  width: 50%;
+  background-color: var(--red-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.profile-section .container .profile-categories ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+}
+.profile-section .container .profile-categories ul li {
+  padding-bottom: 15px;
+  font-weight: 500;
+  border-bottom: 1px solid #f2f2f2;
+  color: #212529;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.profile-section .container .profile-contents {
+  flex: 1;
+  margin: 20px 0 100px;
+}
+@media (max-width: 576px) {
+  .profile-section .container {
+    flex-direction: column;
+  }
+}

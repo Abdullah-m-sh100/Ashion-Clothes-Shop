@@ -1,0 +1,59 @@
+.WishlistSection {
+  margin-top: 20px;
+}
+.WishlistSection .table-dev {
+  overflow-x: auto;
+}
+.WishlistSection table {
+  width: 100%;
+}
+.WishlistSection table tr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.WishlistSection table thead th {
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+.WishlistSection table thead th.product {
+  text-align: start;
+  flex: 1;
+  min-width: 300px;
+}
+.WishlistSection table thead th:not(.product),
+.WishlistSection table tbody td:not(.wishlist_product__item) {
+  width: 150px;
+}
+.WishlistSection table tbody td.wishlist_product__item {
+  flex: 1;
+  min-width: 300px;
+}
+.WishlistSection .Btns {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-self: center;
+}
+.WishlistSection .Btns button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.WishlistSection .Btns button:hover {
+  background-color: var(--red-color);
+  color: white;
+}

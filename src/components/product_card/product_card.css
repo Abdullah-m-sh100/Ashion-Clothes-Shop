@@ -1,0 +1,81 @@
+.ProductCard .card-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 20px;
+}
+.ProductCard .image {
+  position: relative;
+  overflow: hidden;
+}
+.ProductCard .image img {
+  width: 100%;
+}
+.ProductCard .image .btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transition: 0.3s;
+  transform: translateX(-50%);
+}
+.ProductCard .image:hover .btn {
+  bottom: 50px;
+  color: black;
+}
+
+.ProductCard .image .btn span {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.ProductCard .image .btn span svg {
+  color: black;
+}
+.ProductCard .image .btn span:hover svg,
+.ProductCard.in-cart .image .btn span.cart-btn svg,
+.ProductCard.in-wishlist .image .btn span.wishlist-btn svg
+
+{
+  color: white;
+}
+.ProductCard .image .btn span:hover,
+.ProductCard.in-cart .image .btn span.cart-btn,
+.ProductCard.in-wishlist .image .btn span.wishlist-btn {
+  transform: rotate(360deg);
+  background-color: var(--red-color);
+  color: white;
+}
+
+.ProductCard .card-info .name {
+  font-size: 16px;
+  color: black;
+}
+.ProductCard .card-info .stars {
+  color: #ffd700;
+  font-size: 12px;
+}
+.ProductCard .card-info .price {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--red-color);
+}
+.ProductCard .card-info .price .new-price.active {
+  color: var(--red-color);
+}
+.ProductCard .card-info .price .old-price {
+  color: #aaa;
+  text-decoration: line-through;
+}

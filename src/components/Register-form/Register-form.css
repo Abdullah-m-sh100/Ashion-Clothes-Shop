@@ -1,0 +1,120 @@
+.RegisterForm {
+  min-height: calc(100vh - 97px - 80px - 10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  padding-bottom: 50px;
+}
+
+.RegisterForm .container-form h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.RegisterForm .container-form form {
+  max-width: 500px;
+}
+.RegisterForm .container-form form input {
+  padding: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.RegisterForm .container-form form .input-error {
+  margin-left: 10px;
+  margin-top: 7px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--red-color);
+}
+.RegisterForm .container-form .agree {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.RegisterForm .container-form .agree input {
+  width: auto;
+  margin: 0;
+}
+.RegisterForm .container-form form button {
+  color: var(--white-color);
+  background-color: var(--red-color);
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+.RegisterForm .container-form form button {
+  padding: 15px 30px;
+  border: 2px solid transparent;
+  background-color: var(--red-color);
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.3s;
+}
+.RegisterForm .container-form form button:hover {
+  color: var(--red-color);
+  background-color: transparent;
+  border: 2px solid var(--red-color);
+}
+.RegisterForm .container-form a {
+  display: inline-block;
+  color: cadetblue;
+  margin-bottom: 5px;
+  transition: 0.3s;
+  font-size: 14px;
+}
+.RegisterForm .container-form a:hover {
+  color: rgb(64, 117, 119);
+}
+.RegisterForm .container-form > p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.warning {
+  background: #fff5f5;
+  border: 1px solid #e53e3e;
+  color: #9b2c2c;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.warning div {
+  margin: 0;
+  flex: 1;
+  display: flex;
+  align-items: end;
+  gap: 5px;
+}
+.warning svg {
+  width: 1.3rem;
+  height: 1.3rem;
+  flex-shrink: 0;
+  color: #e53e3e;
+}
+.warning span {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

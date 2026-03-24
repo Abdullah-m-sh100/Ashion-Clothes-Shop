@@ -1,0 +1,38 @@
+.CartSection {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+.CartSection table {
+  width: 100%;
+}
+.CartSection table tr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f2f2f2;
+  margin-bottom: 30px;
+}
+
+.CartSection table thead th {
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+.CartSection table thead th.product {
+  text-align: start;
+  flex: 1;
+  min-width: 300px;
+}
+.CartSection table thead th:not(.product),
+.CartSection table tbody td:not(.cart_product__item) {
+  width: 130px;
+}
+.CartSection table tbody td.cart_product__item {
+  flex: 1;
+  min-width: 300px;
+}
+
+.CartSection table tbody {
+  border: 1px solid #000000;
+}

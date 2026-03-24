@@ -1,0 +1,16 @@
+.InstagramSection .all_card {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1px;
+}
+@media (max-width: 992px) {
+  .InstagramSection .all_card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 576px) {
+  .InstagramSection .all_card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+  }
+}

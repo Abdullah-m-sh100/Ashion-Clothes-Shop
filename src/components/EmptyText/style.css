@@ -1,0 +1,20 @@
+.EmptyText {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.EmptyText div {
+  text-align: center;
+}
+.EmptyText h1 {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.EmptyText p {
+  color: black;
+  transition: 0.3s;
+}
+.EmptyText p:hover{
+    color: var(--red-color);
+}
